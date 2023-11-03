@@ -7,3 +7,4 @@ function par_o_impar(numero) {
 }
 
 alert(par_o_impar(121));
+alert(par_o_impar(124));
