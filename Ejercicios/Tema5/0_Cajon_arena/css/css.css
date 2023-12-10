@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+form > div {
+    width: 100%;
+    
+}
