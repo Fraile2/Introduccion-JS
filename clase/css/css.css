@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: write-nerd-font;
+    src: url("write.ttf");
+}
+
+body {
+    background-color: beige;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div, h1, h2 {
+    font-family: write-nerd-font;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 16px;
+    background-color: yellowgreen;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+div.ejercicios {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
