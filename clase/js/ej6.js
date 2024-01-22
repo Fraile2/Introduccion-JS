@@ -12,6 +12,8 @@ function ej6(event) {
         } else {
             resultado.innerHTML="El numero "+numero+" es impar.";
         }
+    } else {
+        resultado.innerHTML="El texto "+numero+" no es un número";
     }
     
 }
