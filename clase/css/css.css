@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: write-nerd-font;
 }
 
 @font-face {
@@ -15,24 +16,42 @@ h1, h2 {
     text-align: center;
 }
 
-div, h1, h2 {
-    font-family: write-nerd-font;
-}
-
-
 a {
     display: block;
     text-decoration: none;
     padding: 20px 16px;
-    background-color: yellowgreen;
+    background-color: rgb(161, 221, 42);
     text-align: center;
     color: black;
     font-size: 20px;
     border-radius: 20px;
+    font-weight: bold;
+    width: 100%;
 }
 
 div.ejercicios {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
+    gap: 10px;
+}
+
+a:hover {
+    background-color: rgb(221, 42, 42);
+    color: azure;
+    font-weight: bold;
+    transition: all linear 300ms;
+}
+
+#resultado, #resultado1,#resultado2,#resultado3 {
+    text-align: center;
+    color: rgb(221, 42, 42);
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.volver {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }

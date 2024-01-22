@@ -5,6 +5,7 @@ function carga(event) {
 }
 
 function ej2(event) {
+    
     var saludo="Hola ¿qué tal?\nSoy Alejandro y este es mi primer script";
     alert(saludo);
 }
