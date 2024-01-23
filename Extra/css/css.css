@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* font-family: palmer; */
+    font-family: write;
     font-size: 20px;
 }
 
@@ -9,6 +9,9 @@
     src: url("ttf/palmer.ttf");
 }
 
-div {
-    text-transform: lowercase;
+@font-face {
+    font-family: write;
+    src: url("ttf/write.ttf");
 }
+
+

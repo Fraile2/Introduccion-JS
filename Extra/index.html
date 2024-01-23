@@ -9,11 +9,24 @@
     </head>
     <body>
         <form action="js/js.js" id="formulario" method="get">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-            <input type="submit" value="Mandar nombre">
+            <div class="dia">
+                <label for="dia">Dia:</label>
+                <input type="number" name="dia" id="dia" required>
+            </div>
+            <div class="mes">
+                <label for="mes">Mes:</label>
+                <input type="number" name="mes" id="mes" required>
+            </div>
+            <div class="year">
+                <label for="year">Año:</label>
+                <input type="number" name="year" id="year" minlength="4" min="1" required>
+            </div>
+            <div class="botonera">
+                <input type="submit" value="Calcular">
+                <input type="reset" value="Cancelar">
+            </div>
         </form>
-        <p id="resultado">Tu nombre es:</p>
+        <div>La fecha cae un: <span id="resultado"></span></div>
 
     </body>
 </html>
