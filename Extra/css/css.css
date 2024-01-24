@@ -14,4 +14,23 @@
     src: url("ttf/write.ttf");
 }
 
+div.datos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 50%;
+}
 
+div.datos > * {
+    float: left;
+}
+
+.datos > div > input {
+    width: 125px;
+    
+}
+
+.res > #resultado {
+    color: crimson;
+    font-weight: bolder;
+}
