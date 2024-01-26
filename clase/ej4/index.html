@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+    <script>
+        function cambiarBombilla() {
+            var bombilla1=document.getElementById('bombilla');
+            var rutaImg=bombilla1.getAttribute("src");
+            var body = document.getElementsByTagName('body');
+            if (rutaImg=="encendida.png") {
+                bombilla1.setAttribute("src", "apagada.png");
+            } else {
+                bombilla1.setAttribute("src", "encendida.png");
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: black;
+        }
+        img {
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <img src="apagada.png" alt="bombilla" id="bombilla">
+    <button id="btnCambiar" onclick="cambiarBombilla()">Cambiar IMG</button>
+</body>
+</html>
