@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.oculto {
+    display: none;
+}
+
+#addObjeto {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: green;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 50px;
+}
+
+#volver {
+    padding: 10px;
+    background-color: rgb(255, 127, 127);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#add {
+    padding: 10px;
+    background-color: rgb(138, 255, 127);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form {
+    position: fixed;
+    background-color: white;
+    padding: 100px;
+    z-index: 100000;
+    width: 100%;
+}
+
+#objetos {
+    color: aliceblue;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li.selec {
+    background-color: rgb(196, 21, 21);
+}

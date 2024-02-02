@@ -13,3 +13,12 @@
     padding: 30px;
     border: 10px solid black;
 }
+
+input {
+    padding: 10px;
+}
+
+input[type="text"] {
+    background-color: yellow;
+    text-align: left;
+}
