@@ -9,24 +9,39 @@
     </head>
     <body>
         <header>
-            <h1>Lista de la compra</h1>
-            <ul class="visible">
-
-            </ul>
+            <h1>Ej apaerte</h1>
+        
+            <form id="formulario1">
+                <div class="contenedor">
+                    <div class="nombre">
+                        <label for="nombreObjeto">Nombre del objeto:</label>
+                        <input type="text" name="nombreObjeto" id="nombreObjeto" required>
+                    </div>
+                    <div class="descripcion">
+                        <label for="descripcion">Descripción del objeto:</label>
+                        <input type="text" name="descripcion" id="descripcion" required>
+                    </div>
+                    <div class="btnForm">
+                        <span id="add">Añadir</span>
+                        <span id="volver">Volver</span>
+                    </div>
+                </div>
+            </form>
+        
             <span id="addObjeto">+</span>
         </header>
-        <div id="objetos">
-
+        <div class="cosas">
+            <ul id="objetos">
+                <li>
+                    <div class="nombre">Patatas</div>
+                    <div class="desc">Variedad X</div>
+                    <div class="botonera">
+                        <div class="btnMarcar">Marcar Objeto</div>
+                        <div class="btnEliminar">Eliminar Objeto</div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <section>
-            <div class="oculto">
-                <form id="formulario1">
-                    <label for="nombreObjeto">Nombre del objeto:</label>
-                    <input type="text" name="nombreObjeto" id="nombreObjeto">
-                    <span id="add">Añadir</span>
-                    <span id="volver">Volver</span>
-                </form>
-            </div>
-        </section>
+        
     </body>
 </html>
