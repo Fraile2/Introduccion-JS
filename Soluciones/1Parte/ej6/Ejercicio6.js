@@ -5,7 +5,6 @@ let numeroAdivinar = 0;
 this.onload = function() {
     Iniciar();
     numeroAdivinar = Math.floor(Math.random() *100);
-    document.getElementById('idBorrar').value = numeroAdivinar.toString();
 }
 
 function Iniciar() {

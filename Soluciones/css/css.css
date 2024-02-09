@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: hiperlegible;
+}
+
+@font-face {
+    font-family: hiperlegible;
+    src: url("ttf/AtkinsonRegular.ttf");
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgb(130, 100, 237);
+    color: black;
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+a:hover {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: rgb(130, 100, 237);
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 40px;
+    transition: all linear 0.4s;
+}
+
+a.volver {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(130, 100, 237);
+    color: black;
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+a.volver:hover {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(130, 100, 237);
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: all linear 0.4s;
+}

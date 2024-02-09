@@ -2,65 +2,20 @@
     box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+@font-face {
+    font-family: aktinson;
+    src: url("ttf/AtkinsonRegular.ttf");
 }
 
-.oculto {
-    display: none;
+.cosas {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-#addObjeto {
-    display: inline-block;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: green;
-    cursor: pointer;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin: 50px;
-}
-
-#volver {
-    padding: 10px;
-    background-color: rgb(255, 127, 127);
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-#add {
-    padding: 10px;
-    background-color: rgb(138, 255, 127);
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-form {
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.411);
-    padding: 100px;
+.cosas > #objetos {
     width: 100%;
-    z-index: 0;
-    padding: auto;
-    width: 100%;
-    height: 100vh;
-}
-
-#objetos {
-    background-color: aliceblue;
 }
 
 li {
     list-style-type: none;
-    padding: 20px;
 }
-
-li.selec {
-    background-color: rgb(196, 21, 21);
-}
-
-/* .formulario1 {
-    display: flex;
-    flex-flow: row nowrap;
-} */
