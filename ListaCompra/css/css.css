@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: aktinson;
 }
 
 @font-face {
@@ -19,3 +20,17 @@
 li {
     list-style-type: none;
 }
+
+#addObjeto {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    margin: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: rgb(151, 223, 44);
+}
+
