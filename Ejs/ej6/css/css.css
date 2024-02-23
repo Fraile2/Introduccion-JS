@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 10px;
+	border: 1px solid black;
+}
+#jugar {
+	display: inline-block;
+	padding: 10px;
+	background-color: rgb(198, 155, 238);
+	border-radius: 10px;
+	border: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+}
+#jugar:hover {
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	color: rgb(198, 155, 238);
+	background-color: black;
+	border-radius: 10px;
+	border: 1px solid black;
+	transition: all linear 0.5s;
+}
+.info  {
+	display: inline-block;
+	background-color: rgb(233, 153, 153);
+	padding: 10px;
+	
+}
+
+.fallo {
+	background-color: rgb(198, 155, 238);
+}
